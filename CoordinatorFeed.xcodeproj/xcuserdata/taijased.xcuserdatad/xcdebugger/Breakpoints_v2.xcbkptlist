@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoordinatorFeed/Classes/Recipe/RecipeViewController.swift"
+            timestampString = "573210763.687083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "RecipeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoordinatorFeed.RecipeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CoordinatorFeed.RecipeViewController"
+                  moduleName = "CoordinatorFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taijased/Documents/ios/LeroyMerlin/CoordinatorFeed/CoordinatorFeed/Classes/Recipe/RecipeViewController.swift"
+                  timestampString = "573040534.3748111"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "154">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoordinatorFeed.RecipeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CoordinatorFeed.RecipeViewController&gt;"
+                  moduleName = "CoordinatorFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taijased/Documents/ios/LeroyMerlin/CoordinatorFeed/CoordinatorFeed/Classes/Recipe/RecipeViewController.swift"
+                  timestampString = "573040534.3808481"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "123">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoordinatorFeed/Classes/Recipe/RecipeViewController.swift"
+            timestampString = "573210763.6871541"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "RecipeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoordinatorFeed.RecipeViewController.onSelectRecipe.getter : Swift.Optional&lt;() -&gt; ()&gt;"
+                  moduleName = "CoordinatorFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taijased/Documents/ios/LeroyMerlin/CoordinatorFeed/CoordinatorFeed/Classes/Recipe/RecipeViewController.swift"
+                  timestampString = "573040535.2368439"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "119">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoordinatorFeed.RecipeViewController.onSelectRecipe.setter : Swift.Optional&lt;() -&gt; ()&gt;"
+                  moduleName = "CoordinatorFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taijased/Documents/ios/LeroyMerlin/CoordinatorFeed/CoordinatorFeed/Classes/Recipe/RecipeViewController.swift"
+                  timestampString = "573040535.239176"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoordinatorFeed.RecipeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CoordinatorFeed.RecipeViewController"
+                  moduleName = "CoordinatorFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taijased/Documents/ios/LeroyMerlin/CoordinatorFeed/CoordinatorFeed/Classes/Recipe/RecipeViewController.swift"
+                  timestampString = "573040535.241012"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "154">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoordinatorFeed.RecipeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CoordinatorFeed.RecipeViewController&gt;"
+                  moduleName = "CoordinatorFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taijased/Documents/ios/LeroyMerlin/CoordinatorFeed/CoordinatorFeed/Classes/Recipe/RecipeViewController.swift"
+                  timestampString = "573040535.2428761"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "123">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoordinatorFeed/Classes/Recipe/RecipeViewController.swift"
+            timestampString = "573210763.687206"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "RecipeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoordinatorFeed.RecipeViewController.onSelectRecipe.getter : Swift.Optional&lt;() -&gt; ()&gt;"
+                  moduleName = "CoordinatorFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taijased/Documents/ios/LeroyMerlin/CoordinatorFeed/CoordinatorFeed/Classes/Recipe/RecipeViewController.swift"
+                  timestampString = "573040535.9950629"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "119">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoordinatorFeed.RecipeViewController.onSelectRecipe.setter : Swift.Optional&lt;() -&gt; ()&gt;"
+                  moduleName = "CoordinatorFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taijased/Documents/ios/LeroyMerlin/CoordinatorFeed/CoordinatorFeed/Classes/Recipe/RecipeViewController.swift"
+                  timestampString = "573040535.997905"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoordinatorFeed.RecipeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CoordinatorFeed.RecipeViewController"
+                  moduleName = "CoordinatorFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taijased/Documents/ios/LeroyMerlin/CoordinatorFeed/CoordinatorFeed/Classes/Recipe/RecipeViewController.swift"
+                  timestampString = "573040536.000221"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "154">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoordinatorFeed.RecipeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CoordinatorFeed.RecipeViewController&gt;"
+                  moduleName = "CoordinatorFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taijased/Documents/ios/LeroyMerlin/CoordinatorFeed/CoordinatorFeed/Classes/Recipe/RecipeViewController.swift"
+                  timestampString = "573040536.002355"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "123">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

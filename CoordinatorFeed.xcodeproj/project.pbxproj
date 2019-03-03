@@ -7,25 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68D20878A77C60456E90D497 /* Pods_CoordinatorFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDAD16390201E95A46B5522 /* Pods_CoordinatorFeed.framework */; };
+		8A858E26222976B900BF23BA /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E25222976B900BF23BA /* AppCoordinator.swift */; };
+		8A858E28222976E100BF23BA /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E27222976E100BF23BA /* CoordinatorProtocol.swift */; };
+		8A858E2B2229772700BF23BA /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E2A2229772700BF23BA /* BaseCoordinator.swift */; };
+		8A858E2D2229775100BF23BA /* StoryboardInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E2C2229775100BF23BA /* StoryboardInitializable.swift */; };
+		8A858E3122297DB500BF23BA /* CategoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E3022297DB500BF23BA /* CategoryListViewModel.swift */; };
+		8A858E3422297E3600BF23BA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E3322297E3600BF23BA /* Category.swift */; };
+		8A858E3622297F7C00BF23BA /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E3522297F7C00BF23BA /* CategoryListViewController.swift */; };
+		8A858E382229812D00BF23BA /* CategoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E372229812D00BF23BA /* CategoryListCell.swift */; };
+		8A858E3B22299F8A00BF23BA /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E3A22299F8A00BF23BA /* TabCoordinator.swift */; };
+		8A858E3F2229A21900BF23BA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E3E2229A21900BF23BA /* TabBarController.swift */; };
+		8A858E49222A491D00BF23BA /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E48222A491D00BF23BA /* Recipe.swift */; };
+		8A858E50222A825100BF23BA /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E4F222A825100BF23BA /* RecipeListViewController.swift */; };
+		8A858E52222A835B00BF23BA /* RecipeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E51222A835B00BF23BA /* RecipeListViewModel.swift */; };
+		8A858E56222A838B00BF23BA /* RecipeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E55222A838B00BF23BA /* RecipeListCell.swift */; };
+		8A858E5E222A86DE00BF23BA /* CRListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E5D222A86DE00BF23BA /* CRListViewController.swift */; };
+		8A858E60222A86F500BF23BA /* CRListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E5F222A86F500BF23BA /* CRListViewModel.swift */; };
+		8A858E62222A870800BF23BA /* CRListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A858E61222A870800BF23BA /* CRListCell.swift */; };
 		8AFA41862227B5AE007CACE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA41852227B5AE007CACE8 /* AppDelegate.swift */; };
 		8AFA41882227B5AE007CACE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA41872227B5AE007CACE8 /* ViewController.swift */; };
 		8AFA418B2227B5AE007CACE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFA41892227B5AE007CACE8 /* Main.storyboard */; };
 		8AFA418D2227B5AE007CACE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFA418C2227B5AE007CACE8 /* Assets.xcassets */; };
 		8AFA41902227B5AE007CACE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFA418E2227B5AE007CACE8 /* LaunchScreen.storyboard */; };
-		8AFA41AD2227B6EE007CACE8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA41AC2227B6EE007CACE8 /* Extensions.swift */; };
-		8AFA41AF2227B702007CACE8 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA41AE2227B702007CACE8 /* Protocols.swift */; };
-		8AFA41B42227B7FE007CACE8 /* UserEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA41B32227B7FE007CACE8 /* UserEditViewController.swift */; };
-		8AFA41B62227B81A007CACE8 /* UserEditCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA41B52227B81A007CACE8 /* UserEditCoordinator.swift */; };
-		8AFA41B92227B847007CACE8 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA41B82227B847007CACE8 /* Models.swift */; };
-		8AFA41BB2227B878007CACE8 /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA41BA2227B878007CACE8 /* CitiesViewController.swift */; };
-		8AFA41C32227C685007CACE8 /* UserNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA41C22227C685007CACE8 /* UserNameVC.swift */; };
-		8AFA41C62227CAEC007CACE8 /* RecipeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA41C52227CAEC007CACE8 /* RecipeCoordinator.swift */; };
-		8AFA41CA2227CC7C007CACE8 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA41C92227CC7C007CACE8 /* RecipeViewController.swift */; };
-		8AFA41CC2227CF20007CACE8 /* RecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA41CB2227CF20007CACE8 /* RecipeVC.swift */; };
-		8AFA41CE2227D395007CACE8 /* RecipeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA41CD2227D395007CACE8 /* RecipeViewCell.swift */; };
+		8AFA41E022280DC5007CACE8 /* CategoryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA41DF22280DC5007CACE8 /* CategoryCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EA26928A5425FDAEC8B13F4 /* Pods-CoordinatorFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoordinatorFeed.debug.xcconfig"; path = "Target Support Files/Pods-CoordinatorFeed/Pods-CoordinatorFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		8A858E25222976B900BF23BA /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		8A858E27222976E100BF23BA /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		8A858E2A2229772700BF23BA /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		8A858E2C2229775100BF23BA /* StoryboardInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInitializable.swift; sourceTree = "<group>"; };
+		8A858E3022297DB500BF23BA /* CategoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewModel.swift; sourceTree = "<group>"; };
+		8A858E3322297E3600BF23BA /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		8A858E3522297F7C00BF23BA /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
+		8A858E372229812D00BF23BA /* CategoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListCell.swift; sourceTree = "<group>"; };
+		8A858E3A22299F8A00BF23BA /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
+		8A858E3E2229A21900BF23BA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8A858E48222A491D00BF23BA /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		8A858E4F222A825100BF23BA /* RecipeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
+		8A858E51222A835B00BF23BA /* RecipeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewModel.swift; sourceTree = "<group>"; };
+		8A858E55222A838B00BF23BA /* RecipeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListCell.swift; sourceTree = "<group>"; };
+		8A858E5D222A86DE00BF23BA /* CRListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRListViewController.swift; sourceTree = "<group>"; };
+		8A858E5F222A86F500BF23BA /* CRListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRListViewModel.swift; sourceTree = "<group>"; };
+		8A858E61222A870800BF23BA /* CRListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRListCell.swift; sourceTree = "<group>"; };
 		8AFA41822227B5AE007CACE8 /* CoordinatorFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFA41852227B5AE007CACE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AFA41872227B5AE007CACE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,17 +59,9 @@
 		8AFA418C2227B5AE007CACE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AFA418F2227B5AE007CACE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AFA41912227B5AE007CACE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8AFA41AC2227B6EE007CACE8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		8AFA41AE2227B702007CACE8 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
-		8AFA41B32227B7FE007CACE8 /* UserEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEditViewController.swift; sourceTree = "<group>"; };
-		8AFA41B52227B81A007CACE8 /* UserEditCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEditCoordinator.swift; sourceTree = "<group>"; };
-		8AFA41B82227B847007CACE8 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		8AFA41BA2227B878007CACE8 /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
-		8AFA41C22227C685007CACE8 /* UserNameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameVC.swift; sourceTree = "<group>"; };
-		8AFA41C52227CAEC007CACE8 /* RecipeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCoordinator.swift; sourceTree = "<group>"; };
-		8AFA41C92227CC7C007CACE8 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
-		8AFA41CB2227CF20007CACE8 /* RecipeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeVC.swift; sourceTree = "<group>"; };
-		8AFA41CD2227D395007CACE8 /* RecipeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewCell.swift; sourceTree = "<group>"; };
+		8AFA41DF22280DC5007CACE8 /* CategoryCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCoordinator.swift; sourceTree = "<group>"; };
+		A155BE3345C5A6098B443251 /* Pods-CoordinatorFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoordinatorFeed.release.xcconfig"; path = "Target Support Files/Pods-CoordinatorFeed/Pods-CoordinatorFeed.release.xcconfig"; sourceTree = "<group>"; };
+		DFDAD16390201E95A46B5522 /* Pods_CoordinatorFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoordinatorFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +69,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D20878A77C60456E90D497 /* Pods_CoordinatorFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		014AFEBA02CBBDDF369580E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EA26928A5425FDAEC8B13F4 /* Pods-CoordinatorFeed.debug.xcconfig */,
+				A155BE3345C5A6098B443251 /* Pods-CoordinatorFeed.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8A858E292229771100BF23BA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8A858E2A2229772700BF23BA /* BaseCoordinator.swift */,
+				8A858E2C2229775100BF23BA /* StoryboardInitializable.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		8A858E3922299F3700BF23BA /* MainTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				8A858E3A22299F8A00BF23BA /* TabCoordinator.swift */,
+				8A858E3E2229A21900BF23BA /* TabBarController.swift */,
+			);
+			path = MainTabBarController;
+			sourceTree = "<group>";
+		};
+		8A858E4E222A81B400BF23BA /* Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				8A858E4F222A825100BF23BA /* RecipeListViewController.swift */,
+				8A858E51222A835B00BF23BA /* RecipeListViewModel.swift */,
+				8A858E55222A838B00BF23BA /* RecipeListCell.swift */,
+			);
+			path = Recipe;
+			sourceTree = "<group>";
+		};
+		8A858E59222A866200BF23BA /*  MainCategory */ = {
+			isa = PBXGroup;
+			children = (
+				8A858E3522297F7C00BF23BA /* CategoryListViewController.swift */,
+				8A858E3022297DB500BF23BA /* CategoryListViewModel.swift */,
+				8A858E372229812D00BF23BA /* CategoryListCell.swift */,
+			);
+			path = " MainCategory";
+			sourceTree = "<group>";
+		};
+		8A858E5A222A867D00BF23BA /* CategoryRecipes */ = {
+			isa = PBXGroup;
+			children = (
+				8A858E5D222A86DE00BF23BA /* CRListViewController.swift */,
+				8A858E5F222A86F500BF23BA /* CRListViewModel.swift */,
+				8A858E61222A870800BF23BA /* CRListCell.swift */,
+			);
+			path = CategoryRecipes;
+			sourceTree = "<group>";
+		};
 		8AFA41792227B5AE007CACE8 = {
 			isa = PBXGroup;
 			children = (
 				8AFA41842227B5AE007CACE8 /* CoordinatorFeed */,
 				8AFA41832227B5AE007CACE8 /* Products */,
+				014AFEBA02CBBDDF369580E5 /* Pods */,
+				EF5566583C10E7C967C5FDEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,7 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				8AFA41972227B612007CACE8 /* App */,
-				8AFA41AB2227B6C8007CACE8 /* Utils */,
+				8A858E292229771100BF23BA /* Library */,
 				8AFA41B72227B83A007CACE8 /* Models */,
 				8AFA41B02227B71E007CACE8 /* Classes */,
 				8AFA41872227B5AE007CACE8 /* ViewController.swift */,
@@ -93,64 +171,47 @@
 			isa = PBXGroup;
 			children = (
 				8AFA41852227B5AE007CACE8 /* AppDelegate.swift */,
+				8A858E25222976B900BF23BA /* AppCoordinator.swift */,
+				8A858E27222976E100BF23BA /* CoordinatorProtocol.swift */,
 			);
 			path = App;
-			sourceTree = "<group>";
-		};
-		8AFA41AB2227B6C8007CACE8 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				8AFA41AC2227B6EE007CACE8 /* Extensions.swift */,
-				8AFA41AE2227B702007CACE8 /* Protocols.swift */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		8AFA41B02227B71E007CACE8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8AFA41C42227CAC4007CACE8 /* Recipe */,
-				8AFA41B12227B729007CACE8 /* UserEdit */,
-				8AFA41B22227B737007CACE8 /* Cities */,
+				8A858E3922299F3700BF23BA /* MainTabBarController */,
+				8AFA41DE22280DAB007CACE8 /* Category */,
+				8A858E4E222A81B400BF23BA /* Recipe */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		8AFA41B12227B729007CACE8 /* UserEdit */ = {
-			isa = PBXGroup;
-			children = (
-				8AFA41B32227B7FE007CACE8 /* UserEditViewController.swift */,
-				8AFA41B52227B81A007CACE8 /* UserEditCoordinator.swift */,
-			);
-			path = UserEdit;
-			sourceTree = "<group>";
-		};
-		8AFA41B22227B737007CACE8 /* Cities */ = {
-			isa = PBXGroup;
-			children = (
-				8AFA41BA2227B878007CACE8 /* CitiesViewController.swift */,
-				8AFA41C22227C685007CACE8 /* UserNameVC.swift */,
-			);
-			path = Cities;
 			sourceTree = "<group>";
 		};
 		8AFA41B72227B83A007CACE8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8AFA41B82227B847007CACE8 /* Models.swift */,
+				8A858E3322297E3600BF23BA /* Category.swift */,
+				8A858E48222A491D00BF23BA /* Recipe.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		8AFA41C42227CAC4007CACE8 /* Recipe */ = {
+		8AFA41DE22280DAB007CACE8 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				8AFA41C52227CAEC007CACE8 /* RecipeCoordinator.swift */,
-				8AFA41C92227CC7C007CACE8 /* RecipeViewController.swift */,
-				8AFA41CB2227CF20007CACE8 /* RecipeVC.swift */,
-				8AFA41CD2227D395007CACE8 /* RecipeViewCell.swift */,
+				8AFA41DF22280DC5007CACE8 /* CategoryCoordinator.swift */,
+				8A858E59222A866200BF23BA /*  MainCategory */,
+				8A858E5A222A867D00BF23BA /* CategoryRecipes */,
 			);
-			path = Recipe;
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EF5566583C10E7C967C5FDEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFDAD16390201E95A46B5522 /* Pods_CoordinatorFeed.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AFA41942227B5AE007CACE8 /* Build configuration list for PBXNativeTarget "CoordinatorFeed" */;
 			buildPhases = (
+				1A9F0DCABA43C8418A557956 /* [CP] Check Pods Manifest.lock */,
 				8AFA417E2227B5AE007CACE8 /* Sources */,
 				8AFA417F2227B5AE007CACE8 /* Frameworks */,
 				8AFA41802227B5AE007CACE8 /* Resources */,
+				0BEADED69E74E41C209ADC32 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,24 +282,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BEADED69E74E41C209ADC32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoordinatorFeed/Pods-CoordinatorFeed-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoordinatorFeed/Pods-CoordinatorFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A9F0DCABA43C8418A557956 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoordinatorFeed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8AFA417E2227B5AE007CACE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AFA41C62227CAEC007CACE8 /* RecipeCoordinator.swift in Sources */,
-				8AFA41B42227B7FE007CACE8 /* UserEditViewController.swift in Sources */,
+				8A858E62222A870800BF23BA /* CRListCell.swift in Sources */,
+				8A858E28222976E100BF23BA /* CoordinatorProtocol.swift in Sources */,
+				8A858E2D2229775100BF23BA /* StoryboardInitializable.swift in Sources */,
+				8A858E60222A86F500BF23BA /* CRListViewModel.swift in Sources */,
+				8A858E3622297F7C00BF23BA /* CategoryListViewController.swift in Sources */,
+				8A858E382229812D00BF23BA /* CategoryListCell.swift in Sources */,
+				8A858E52222A835B00BF23BA /* RecipeListViewModel.swift in Sources */,
+				8A858E2B2229772700BF23BA /* BaseCoordinator.swift in Sources */,
 				8AFA41882227B5AE007CACE8 /* ViewController.swift in Sources */,
-				8AFA41AD2227B6EE007CACE8 /* Extensions.swift in Sources */,
-				8AFA41B62227B81A007CACE8 /* UserEditCoordinator.swift in Sources */,
-				8AFA41CA2227CC7C007CACE8 /* RecipeViewController.swift in Sources */,
-				8AFA41CC2227CF20007CACE8 /* RecipeVC.swift in Sources */,
+				8A858E3F2229A21900BF23BA /* TabBarController.swift in Sources */,
+				8A858E3B22299F8A00BF23BA /* TabCoordinator.swift in Sources */,
 				8AFA41862227B5AE007CACE8 /* AppDelegate.swift in Sources */,
-				8AFA41BB2227B878007CACE8 /* CitiesViewController.swift in Sources */,
-				8AFA41C32227C685007CACE8 /* UserNameVC.swift in Sources */,
-				8AFA41AF2227B702007CACE8 /* Protocols.swift in Sources */,
-				8AFA41B92227B847007CACE8 /* Models.swift in Sources */,
-				8AFA41CE2227D395007CACE8 /* RecipeViewCell.swift in Sources */,
+				8AFA41E022280DC5007CACE8 /* CategoryCoordinator.swift in Sources */,
+				8A858E26222976B900BF23BA /* AppCoordinator.swift in Sources */,
+				8A858E50222A825100BF23BA /* RecipeListViewController.swift in Sources */,
+				8A858E5E222A86DE00BF23BA /* CRListViewController.swift in Sources */,
+				8A858E49222A491D00BF23BA /* Recipe.swift in Sources */,
+				8A858E56222A838B00BF23BA /* RecipeListCell.swift in Sources */,
+				8A858E3122297DB500BF23BA /* CategoryListViewModel.swift in Sources */,
+				8A858E3422297E3600BF23BA /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +501,7 @@
 		};
 		8AFA41952227B5AE007CACE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA26928A5425FDAEC8B13F4 /* Pods-CoordinatorFeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +520,7 @@
 		};
 		8AFA41962227B5AE007CACE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A155BE3345C5A6098B443251 /* Pods-CoordinatorFeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
